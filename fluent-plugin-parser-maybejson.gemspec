@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-parser-maybejson"
-  spec.version       = "0.1.1"
+  spec.version       = "2.0.0"
   spec.authors       = ["Ninad Page"]
   spec.email         = ["ninadpage@users.noreply.github.com"]
 
@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
 
-  spec.add_runtime_dependency "fluentd", "~> 0.12.0"
+  spec.add_runtime_dependency "fluentd", "~> 1.4.0"
 end

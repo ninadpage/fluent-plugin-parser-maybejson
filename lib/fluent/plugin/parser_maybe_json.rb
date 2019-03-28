@@ -94,6 +94,8 @@
 # </filter>
 #
 
+require 'fluent/parser'
+
 module Fluent
   class TextParser
     class MaybeJSONParser < JSONParser
